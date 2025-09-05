@@ -1,8 +1,5 @@
-import React, { useState } from "react";
-
 const Principal = () => {
   // Estados para cada checkbox
-  const [checkedDefault, setCheckedDefault] = useState(false);
 
   return (
     <>

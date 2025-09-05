@@ -4,7 +4,6 @@ import {
   RiFacebookBoxLine,
   RiMailLine,
   RiContactsLine,
-  RiArrowDownLine,
 } from "react-icons/ri";
 import { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";

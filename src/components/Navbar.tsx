@@ -11,7 +11,6 @@ import { IoDocumentsOutline } from "react-icons/io5";
 import { GrDomain } from "react-icons/gr";
 
 const Navbar = () => {
-  const [count, setCount] = useState(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
