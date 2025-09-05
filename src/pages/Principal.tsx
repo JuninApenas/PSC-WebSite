@@ -4,17 +4,17 @@ const Principal = () => {
   return (
     <>
       {/* Seção Banner */}
-      <section className="relative h-[183px] sm:h-[250px] lg:h-[331px] w-full flex justify-center items-center border-b-4 border-[#FFE500] text">
+      <section className="relative h-[183px] sm:h-[250px] lg:h-[331px] w-full flex justify-center items-center border-b-4 border-[#FFE500]">
         <img
           src="img/logo/PSC-LeaoRosnando.svg"
           alt="ImgBanner1"
           className="hidden lg:block absolute left-0"
         />
         <div className="w-full h-[331px] flex flex-col justify-center items-center">
-          <h1 className="text-[#FFE500] font-[SheepmanW03-Bold] text-[38px] sm:text-[55px] lg:text-[66px] leading-none">
+          <h1 className="text-[#FFE500] font-[SheepmanW03-Bold] text-[33px] sm:text-[55px] lg:text-[66px] leading-none">
             PROJETO SOCIAL CAMPEÃO
           </h1>
-          <p className="text-[#F8FAFC] font-[SheepmanW03-Bold] text-[24px] sm:text-[30px] lg:text-[36px] leading-tight">
+          <p className="text-[#F8FAFC] font-[SheepmanW03-Bold] text-[18px] sm:text-[30px] lg:text-[36px] leading-tight">
             NO ESPORTE E NA VIDA
           </p>
           <div className="flex gap-22 h-[20px] mt-10 sm:h-[30px] sm:mt-15 lg:h-[40px] lg:mt-20">

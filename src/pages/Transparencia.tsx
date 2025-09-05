@@ -9,10 +9,10 @@ const Transparencia = () => {
           className="hidden lg:block absolute left-0"
         />
         <div className="w-full h-[331px] flex flex-col justify-center items-center">
-          <h1 className="text-[#FFE500] font-[SheepmanW03-Bold] text-[38px] leading-none sm:text-[55px] lg:text-[66px]">
+          <h1 className="text-[#FFE500] font-[SheepmanW03-Bold] text-[33px] leading-none sm:text-[55px] lg:text-[66px]">
             TRANSPARÊNCIA
           </h1>
-          <p className="text-[#F8FAFC] font-[SheepmanW03-Bold] text-[24px] sm:text-[30px] lg:text-[36px] leading-tight">
+          <p className="text-[#F8FAFC] font-[SheepmanW03-Bold] text-[18px] sm:text-[30px] lg:text-[36px] leading-tight">
             PUBLICAÇÕES DE RECURSOS PÚBLICOS E PRIVADOS
           </p>
           <div className="flex gap-22 h-[20px] mt-10 sm:h-[30px] sm:mt-15 lg:h-[40px] lg:mt-20">

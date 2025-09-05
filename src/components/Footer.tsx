@@ -145,12 +145,13 @@ const Footer = () => {
         </div>
       </div>
       {/* Footer Computador */}
-      <div className="px-0 pt-0 pb-5 hidden lg:flex lg:justify-around lg:items-center border-t-1 border-[#FFE500]">
-        {/* Contatos e Redes Sociais */}
-        <div className="flex justify-center items-center gap-15">
-          {/* Footer Contatos */}
-          <div className="flex flex-col justify-center items-start gap-3">
+      <div className="pb-2 pt-2 hidden lg:flex lg:justify-center lg:items-center border-t-1 gap-50 border-[#FFE500]">
+        {/* Footer Contatos */}
+        <div className="">
+          <div className="flex justify-center items-center mb-2">
             <p className="text-white font-bold">-- Contatos --</p>
+          </div>
+          <div className="flex justify-center items-start gap-5">
             <p className="text-white font-semibold flex items-center">
               <RiMailLine className="h-6 w-6 mr-2"> </RiMailLine>
               contato@exemplo.com
@@ -160,49 +161,33 @@ const Footer = () => {
               91234-5678
             </p>
           </div>
-          {/* Footer Redes Sociais */}
-          <div className="flex flex-col justify-center items-start gap-3">
-            <a
-              className="text-white transition hover:text-[#FFE500] font-semibold"
-              href="https://wa.me/556194042201"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <RiWhatsappLine className="h-6 w-6 inline" /> WhatsApp
-            </a>
-            <a
-              className="text-white transition hover:text-[#FFE500] font-semibold"
-              href="https://www.instagram.com/projeto_campeao/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <RiInstagramLine className="h-6 w-6 inline" /> Instagram
-            </a>
-            <a
-              className="text-white transition hover:text-[#FFE500] font-semibold"
-              href="https://www.facebook.com/pjcss/?ref=_xav_ig_profile_page_web#"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <RiFacebookBoxLine className="h-6 w-6 inline" /> Facebook
-            </a>
-          </div>
         </div>
-
-        {/* Footer Mapa */}
-        <div className="flex flex-col items-center justify-center">
-          <p className="text-white text-[16px] font-semibold text-center mt-5 mb-2">
-            PRODF - Quadra 01, Conjunto 01, Lote 09 - São Sebastião - DF
-          </p>
-          <div className="w-[600px] h-50 mb-1">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d479.624822063276!2d-47.777188646714265!3d-15.909145480997529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a20317d2c9093%3A0x7c8ee623a751a46f!2sProjeto%20Social%20Campe%C3%A3o!5e0!3m2!1sen!2sbr!4v1756997265885!5m2!1sen!2sbr"
-              className="w-full h-full"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+        {/* Footer Redes Sociais */}
+        <div className="flex gap-5 justify-center items-center">
+          <a
+            className="text-white transition hover:text-[#FFE500] font-semibold"
+            href="https://wa.me/556194042201"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <RiWhatsappLine className="h-6 w-6 inline" /> WhatsApp
+          </a>
+          <a
+            className="text-white transition hover:text-[#FFE500] font-semibold"
+            href="https://www.instagram.com/projeto_campeao/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <RiInstagramLine className="h-6 w-6 inline" /> Instagram
+          </a>
+          <a
+            className="text-white transition hover:text-[#FFE500] font-semibold"
+            href="https://www.facebook.com/pjcss/?ref=_xav_ig_profile_page_web#"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <RiFacebookBoxLine className="h-6 w-6 inline" /> Facebook
+          </a>
         </div>
       </div>
       {/* Footer direitos reservados */}

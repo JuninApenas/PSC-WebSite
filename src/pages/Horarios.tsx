@@ -5,17 +5,17 @@ const Horarios = () => {
   return (
     <>
       {/* Seção Banner */}
-      <section className="relative h-[183px] sm:h-[250px] lg:h-[331px] w-full flex justify-center items-center whitespace-nowrap border-b-4 border-[#FFE500]">
+      <section className="relative h-[183px] sm:h-[250px] lg:h-[341px] w-full flex justify-center items-center whitespace-nowrap border-b-4 border-[#FFE500]">
         <img
           src="img/logo/PSC-LeaoRosnando.svg"
           alt="ImgBanner1"
           className="hidden lg:block absolute left-0"
         />
         <div className="w-full h-[331px] flex flex-col justify-center items-center">
-          <h1 className="text-[#FFE500] font-[SheepmanW03-Bold] text-[38px] leading-none sm:text-[55px]  lg:text-[66px]">
+          <h1 className="text-[#FFE500] font-[SheepmanW03-Bold] text-[33px] leading-none sm:text-[55px]  lg:text-[66px]">
             TREINOS
           </h1>
-          <p className="text-[#F8FAFC] font-[SheepmanW03-Bold] text-[24px] sm:text-[30px] lg:text-[36px] leading-tight text-center">
+          <p className="text-[#F8FAFC] font-[SheepmanW03-Bold] text-[18px] sm:text-[30px] lg:text-[36px] leading-tight text-center">
             MODALIDADES, ENDEREÇOS E HORÁRIOS
           </p>
           <div className="flex gap-22 h-[20px] mt-8 sm:h-[30px] sm:mt-12 lg:h-[40px] lg:mt-18">
@@ -40,7 +40,7 @@ const Horarios = () => {
       <section className="flex flex-col items-center my-10 gap-10">
         {/* PSC - Sede */}
         <div
-          className="flex flex-col w-[370px] bg-[#141414] rounded-[10px] shadow-[0px_0px_10px_rgba(255,229,0,55)] p-3 gap-10
+          className="flex flex-col w-[350px] bg-[#141414] rounded-[10px] shadow-[0px_0px_10px_rgba(255,229,0,55)] p-3 gap-10
          sm:w-[550px]
          lg:w-[1000px]"
         >
@@ -67,7 +67,7 @@ const Horarios = () => {
                 </h2>
                 {/* Data e Horarios */}
                 <div className="gap-1.5 flex flex-col ">
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Segunda
                     </div>
@@ -76,7 +76,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1 ml-5 sm:ml-10" /> 20:30
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Terça
                     </div>
@@ -85,7 +85,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1 ml-5 sm:ml-10" /> 21:30
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Quarta
                     </div>
@@ -94,7 +94,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1 ml-5 sm:ml-10" /> 20:30
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Quinta
                     </div>
@@ -103,7 +103,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1 ml-5 sm:ml-10" /> 21:30
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Sexta
                     </div>
@@ -112,7 +112,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1 ml-5 sm:ml-10" /> 20:30
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Sabado
                     </div>
@@ -130,7 +130,7 @@ const Horarios = () => {
                 </h2>
                 {/* Data e Horarios */}
                 <div className="gap-1.5 flex flex-col">
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Segunda
                     </div>
@@ -139,7 +139,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1 ml-5 sm:ml-10" /> 19:00
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Terça
                     </div>
@@ -147,7 +147,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1" /> 15:00
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Quarta
                     </div>
@@ -157,7 +157,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1 ml-5 sm:ml-10" /> 19:00
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Quinta
                     </div>
@@ -165,7 +165,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1 " /> 15:00
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Sexta
                     </div>
@@ -175,7 +175,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1 ml-5 sm:ml-10" /> 19:00
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Sabado
                     </div>
@@ -197,13 +197,13 @@ const Horarios = () => {
                 </h2>
                 {/* Data e Horarios */}
                 <div className="gap-1.5 flex flex-col">
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Segunda
                     </div>
                     <div className="flex items-center w-35 mx-2 font-semibold"></div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Terça
                     </div>
@@ -211,13 +211,13 @@ const Horarios = () => {
                       <FaRegClock className="mr-1" /> 08:30
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Quarta
                     </div>
                     <div className="flex items-center mx-2 w-35 font-semibold"></div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Quinta
                     </div>
@@ -225,13 +225,13 @@ const Horarios = () => {
                       <FaRegClock className="mr-1" /> 08:30
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Sexta
                     </div>
                     <div className="flex items-center w-35 mx-2 font-semibold"></div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Sabado
                     </div>
@@ -252,13 +252,13 @@ const Horarios = () => {
                 </h2>
                 {/* Data e Horarios */}
                 <div className="gap-1.5 flex flex-col ">
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Segunda
                     </div>
                     <div className="flex items-center mx-2 font-semibold"></div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Terça
                     </div>
@@ -266,7 +266,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1" /> 19:00
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Quarta
                     </div>
@@ -274,7 +274,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1" /> 08:00
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Quinta
                     </div>
@@ -282,7 +282,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1" /> 19:00
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Sexta
                     </div>
@@ -290,7 +290,7 @@ const Horarios = () => {
                       <FaRegClock className="mr-1" /> 08:00
                     </div>
                   </div>
-                  <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold sm:text-[20px]">
                       Sabado
                     </div>
@@ -310,25 +310,25 @@ const Horarios = () => {
               </h2>
               {/* Data e Horarios */}
               <div className="gap-1.5 flex flex-col">
-                <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold sm:text-[20px]">
                     Segunda
                   </div>
                   <div className="flex items-center w-35 mx-2 font-semibold"></div>
                 </div>
-                <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold sm:text-[20px]">Terça</div>
                   <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5 sm:text-[20px]">
                     <FaRegClock className="mr-1" /> 17:45
                   </div>
                 </div>
-                <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold sm:text-[20px]">
                     Quarta
                   </div>
                   <div className="flex items-center mx-2 w-35 font-semibold"></div>
                 </div>
-                <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold sm:text-[20px]">
                     Quinta
                   </div>
@@ -336,10 +336,10 @@ const Horarios = () => {
                     <FaRegClock className="mr-1" /> 17:45
                   </div>
                 </div>
-                <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold sm:text-[20px]">Sexta</div>
                 </div>
-                <div className="flex items-center w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold sm:text-[20px]">
                     Sabado
                   </div>
@@ -353,7 +353,7 @@ const Horarios = () => {
         <div className="lg:flex lg:w-[1000px] lg:gap-4">
           {/* PSC - Morro da Cruz */}
           <div
-            className="flex flex-col w-[370px] sm:w-[550px] bg-[#141414] rounded-[10px] shadow-[0px_0px_10px_rgba(255,229,0,55)] p-3 gap-10
+            className="flex flex-col w-[350px] sm:w-[550px] bg-[#141414] rounded-[10px] shadow-[0px_0px_10px_rgba(255,229,0,55)] p-3 gap-10
          lg:w-[1000px] mb-10 lg:mb-0"
           >
             <div className="text-white ">
@@ -375,31 +375,31 @@ const Horarios = () => {
               </h2>
               {/* Data e Horarios */}
               <div className="gap-1.5 flex flex-col">
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Segunda</div>
                   <div className="flex items-center w-35 mx-2 font-semibold"></div>
                 </div>
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Terça</div>
                   <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5 sm:text-[20px]">
                     <FaRegClock className="mr-1" /> 08:30
                   </div>
                 </div>
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Quarta</div>
                   <div className="flex items-center mx-2 w-35 font-semibold"></div>
                 </div>
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Quinta</div>
                   <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5">
                     <FaRegClock className="mr-1" /> 08:30
                   </div>
                 </div>
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Sexta</div>
                   <div className="flex items-center w-35 mx-2 font-semibold"></div>
                 </div>
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Sabado</div>
                   <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5">
                     <FaRegClock className="mr-1" /> 09:00
@@ -417,35 +417,35 @@ const Horarios = () => {
                 </h2>
                 {/* Data e Horarios */}
                 <div className="gap-1.5 flex flex-col">
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Segunda</div>
                     <div className="flex items-center mx-2 font-semibold"></div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Terça</div>
                     <div className="flex items-center mx-2 gap-0.5 font-semibold pr-[4px]">
                       <FaRegClock className="mr-1" /> 19:00
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Quarta</div>
                     <div className="flex items-center mx-2  gap-0.5 font-semibold pr-[1px]">
                       <FaRegClock className="mr-1" /> 08:00
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Quinta</div>
                     <div className="flex items-center justify-start mx-2 gap-0.5 font-semibold pr-[4px]">
                       <FaRegClock className="mr-1" /> 19:00
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Sexta</div>
                     <div className="flex items-center text-center mx-2 gap-0.5 font-semibold pr-[1px]">
                       <FaRegClock className="mr-1" /> 08:00
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Sabado</div>
                   </div>
                 </div>
@@ -461,31 +461,31 @@ const Horarios = () => {
                 </h2>
                 {/* Data e Horarios */}
                 <div className="gap-1.5 flex flex-col">
-                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[340px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[320px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Segunda</div>
                     <div className="flex items-center w-35 mx-2 font-semibold"></div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[340px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[320px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Terça</div>
                     <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5">
                       <FaRegClock className="mr-1" /> 17:45
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[340px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[320px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Quarta</div>
                     <div className="flex items-center mx-2 w-35 font-semibold"></div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[340px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[320px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Quinta</div>
                     <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5">
                       <FaRegClock className="mr-1" /> 17:45
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[340px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[320px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Sexta</div>
                     <div className="flex items-center w-35 mx-2 font-semibold"></div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[340px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] sm:w-[500px] w-[320px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Sabado</div>
                     <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5"></div>
                   </div>
@@ -495,7 +495,7 @@ const Horarios = () => {
           </div>
           {/* PSC - Capão Cumprido */}
           <div
-            className="flex flex-col w-[370px] sm:w-[550px] bg-[#141414] rounded-[10px] shadow-[0px_0px_10px_rgba(255,229,0,55)] p-3 gap-10
+            className="flex flex-col w-[350px] sm:w-[550px] bg-[#141414] rounded-[10px] shadow-[0px_0px_10px_rgba(255,229,0,55)] p-3 gap-10
          lg:w-[1000px]"
           >
             <div className="text-white">
@@ -517,31 +517,31 @@ const Horarios = () => {
               </h2>
               {/* Data e Horarios */}
               <div className="gap-1.5 flex flex-col">
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Segunda</div>
                   <div className="flex items-center w-35 mx-2 font-semibold"></div>
                 </div>
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Terça</div>
                   <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5">
                     <FaRegClock className="mr-1" /> 08:30
                   </div>
                 </div>
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Quarta</div>
                   <div className="flex items-center mx-2 w-35 font-semibold"></div>
                 </div>
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Quinta</div>
                   <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5">
                     <FaRegClock className="mr-1" /> 08:30
                   </div>
                 </div>
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Sexta</div>
                   <div className="flex items-center w-35 mx-2 font-semibold"></div>
                 </div>
-                <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                   <div className="ml-2 font-semibold">Sabado</div>
                   <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5">
                     <FaRegClock className="mr-1" /> 09:00
@@ -559,35 +559,35 @@ const Horarios = () => {
                 </h2>
                 {/* Data e Horarios */}
                 <div className="gap-1.5 flex flex-col">
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Segunda</div>
                     <div className="flex items-center mx-2 font-semibold"></div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Terça</div>
                     <div className="flex items-center mx-2 gap-0.5 font-semibold pr-[4px]">
                       <FaRegClock className="mr-1" /> 19:00
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Quarta</div>
                     <div className="flex items-center mx-2  gap-0.5 font-semibold pr-[1px]">
                       <FaRegClock className="mr-1" /> 08:00
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Quinta</div>
                     <div className="flex items-center justify-start mx-2 gap-0.5 font-semibold pr-[4px]">
                       <FaRegClock className="mr-1" /> 19:00
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Sexta</div>
                     <div className="flex items-center text-center mx-2 gap-0.5 font-semibold pr-[1px]">
                       <FaRegClock className="mr-1" /> 08:00
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Sabado</div>
                   </div>
                 </div>
@@ -603,31 +603,31 @@ const Horarios = () => {
                 </h2>
                 {/* Data e Horarios */}
                 <div className="gap-1.5 flex flex-col">
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Segunda</div>
                     <div className="flex items-center w-35 mx-2 font-semibold"></div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Terça</div>
                     <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5">
                       <FaRegClock className="mr-1" /> 17:45
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Quarta</div>
                     <div className="flex items-center mx-2 w-35 font-semibold"></div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Quinta</div>
                     <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5">
                       <FaRegClock className="mr-1" /> 17:45
                     </div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Sexta</div>
                     <div className="flex items-center w-35 mx-2 font-semibold"></div>
                   </div>
-                  <div className="flex items-center sm:text-[20px] w-[340px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
+                  <div className="flex items-center sm:text-[20px] w-[320px] sm:w-[500px] lg:w-[450px] justify-between bg-[#1F1F1F] rounded-[4px]">
                     <div className="ml-2 font-semibold">Sabado</div>
                     <div className="flex items-center w-35 mx-2 font-semibold justify-end pr-1.5"></div>
                   </div>

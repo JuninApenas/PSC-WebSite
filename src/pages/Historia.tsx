@@ -12,10 +12,10 @@ const Historia = () => {
           className="hidden lg:block absolute left-0"
         />
         <div className="w-full h-[331px] flex flex-col justify-center items-center">
-          <h1 className="text-[#FFE500] font-[SheepmanW03-Bold] text-[38px] leading-none sm:text-[55px] lg:text-[66px]">
+          <h1 className="text-[#FFE500] font-[SheepmanW03-Bold] text-[33px] leading-none sm:text-[55px] lg:text-[66px]">
             HISTORIA DO PROJETO
           </h1>
-          <p className="text-[#F8FAFC] font-[SheepmanW03-Bold] text-[24px] sm:text-[30px] lg:text-[36px] leading-tight">
+          <p className="text-[#F8FAFC] font-[SheepmanW03-Bold] text-[18px] sm:text-[30px] lg:text-[36px] leading-tight">
             EVENTOS EM ORDEM CRONOLÓGICA
           </p>
           <div className="flex gap-22 h-[20px] mt-10 sm:h-[30px] sm:mt-15 lg:h-[40px] lg:mt-20">
@@ -38,7 +38,7 @@ const Historia = () => {
         />
       </section>
       {/* Seção Conteúdo da História */}
-      <section className="mx-16 my-6 flex flex-col justify-center items-center gap-8">
+      <section className="my-6 flex flex-col justify-center items-center gap-8">
         {/*Registro*/}
         <div
           className=" w-[346px] h-[305px] shadow-[0px_0px_10px_rgba(255,229,0,55)] rounded-[10px]
